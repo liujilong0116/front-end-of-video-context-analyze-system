@@ -1,0 +1,138 @@
+QMainWindow{border-image:url(./data/imgs/background.png);}
+#widget_top1{border-image:url(./data/imgs/top1.png);}
+#widget_top2{border-image:url(./data/imgs/top2.png);}
+#widget_top3{border-image:url(./data/imgs/top3.png);}
+#widget_label{border-image:url(./data/imgs/label.png);}
+#widget_list{border-image:url(./data/imgs/kuang.png);}
+#pushButton_stop_all{border-image:url(./data/imgs/button_stop_all.png);}
+#pushButton_min{border-image:url(./data/imgs/min.png);}
+#pushButton_min:selected,#pushButton_min:hover{border-image:url(./data/imgs/min_s.png);}
+#pushButton_max{border-image:url(./data/imgs/max.png);}
+#pushButton_max:selected,#pushButton_max:hover{border-image:url(./data/imgs/max_s.png);}
+#pushButton_close{border-image:url(./data/imgs/close.png);}
+#pushButton_close:selected,#pushButton_close:hover{border-image:url(./data/imgs/close_s.png);}
+
+QPushButton{
+    border-image:url(./data/imgs/button.png);
+}
+
+QPushButton:selected,QPushButton:hover{
+
+    border-image:url(./data/imgs/button_s.png);
+}
+
+QTabBar::tab{
+    background:transparent;
+}
+
+QTabBar::tab:selected,QTabBar::tab:hover{
+
+    border-image:url(./data/imgs/bar.png);
+}
+
+
+
+
+QTabWidget::pane, QListWidget::pane, QTableView::pane, QListWidget{
+   border: none;
+}
+
+QTabWidget QStackedWidget{
+  background: transparent;
+}
+
+QListWidget{
+    background: transparent;
+}
+
+QTableWidget
+{
+  background: transparent;
+}
+
+QLabel, QPushButton, QTabBar, QTableWidget, QListWidget, QLineEdit{
+    color:#E7ECF0;
+}
+
+QTableView,QSplitter::handle, QLineEdit{
+    border-image:url(./data/imgs/bar_us.png);
+}
+
+QHeaderView::section{
+    color:#E7ECF0;
+    border-image:url(./data/imgs/header.png);
+}
+
+QScrollBar:horizontal{
+background:#667481;
+padding:0px;
+border-radius:6px;
+max-height:12px;
+}
+
+QScrollBar::handle:horizontal{
+background:#708090;
+min-width:50px;
+border-radius:6px;
+}
+
+QScrollBar::handle:horizontal:hover{
+background:#738393;
+}
+
+QScrollBar::handle:horizontal:pressed{
+background:#738393;
+}
+
+QScrollBar::add-page:horizontal{
+background:none;
+}
+
+QScrollBar::sub-page:horizontal{
+background:none;
+}
+
+QScrollBar::add-line:horizontal{
+background:none;
+}
+
+QScrollBar::sub-line:horizontal{
+background:none;
+}
+
+QScrollBar:vertical{
+background:#667481;
+padding:0px;
+border-radius:6px;
+max-width:12px;
+}
+
+QScrollBar::handle:vertical{
+background:#708090;
+min-height:50px;
+border-radius:6px;
+}
+
+QScrollBar::handle:vertical:hover{
+background:#738393;
+}
+
+QScrollBar::handle:vertical:pressed{
+background:#738393;
+}
+
+QScrollBar::add-page:vertical{
+background:none;
+}
+
+QScrollBar::sub-page:vertical{
+background:none;
+}
+
+QScrollBar::add-line:vertical{
+background:none;
+}
+
+QScrollBar::sub-line:vertical{
+background:none;
+}
