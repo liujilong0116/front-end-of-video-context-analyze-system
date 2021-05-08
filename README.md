@@ -7,6 +7,7 @@
 本项目使用python语言完成，基于PyQt5构建的前端，共分为四个界面：视频检测、人员管理、视频管理、直播管理。
 
 <center>
+
 ![](https://github.com/liujilong0116/front-end-of-video-context-analyze-system/blob/main/imgs/video.png)
 
 视频检测界面
